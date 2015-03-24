@@ -1,6 +1,6 @@
 {
   "name": "waterlock-local-auth",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "local authentication for waterlock",
   "main": "index.js",
   "scripts": {
@@ -38,6 +38,10 @@
     {
       "name": "David Rivera",
       "email": "david.r.rivera193@gmail.com"
+    },
+    {
+      "name": "Peter Barrett",
+      "email": "peter@8bytes.ie"
     }
   ],
   "license": "MIT",
