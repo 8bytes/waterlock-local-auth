@@ -4,6 +4,11 @@ var wl = test_helper.waterlock_local;
 var index = wl.actions;
 
 describe('controller index', function(){
+  it('should export register', function(done){
+    index.should.have.property('register');
+    index.register.should.be.Function;
+    done();
+  });
   it('should export login', function(done){
     index.should.have.property('login');
     index.login.should.be.Function;
